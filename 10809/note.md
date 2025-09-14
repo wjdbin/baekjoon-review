@@ -75,14 +75,14 @@ int main(void) {
 ```
 💡 배운 점
 
-문자열은 항상 \0으로 끝난다 → s[i] != '\0'로 확인.
+-문자열은 항상 \0으로 끝난다 → s[i] != '\0'로 확인.
 
-s[i] - 'a' 계산으로 문자를 0~25 범위로 변환 가능.
+-s[i] - 'a' 계산으로 문자를 0~25 범위로 변환 가능.
 
-alpha[idx]를 사용해야 올바르게 알파벳 위치를 기록할 수 있다.
+-alpha[idx]를 사용해야 올바르게 알파벳 위치를 기록할 수 있다.
 
-출력 형식은 if (i) printf(" ");로 조절.
+-출력 형식은 if (i) printf(" ");로 조절.
 
-string.h는 strlen, strcmp 등 함수 쓸 때만 필요.
+-string.h는 strlen, strcmp 등 함수 쓸 때만 필요.
 
-Visual Studio는 scanf 대신 scanf_s 사용, for문 변수는 루프 밖에서 선언하는 게 안전하다.
+-Visual Studio는 scanf 대신 scanf_s 사용, for문 변수는 루프 밖에서 선언하는 게 안전하다.
